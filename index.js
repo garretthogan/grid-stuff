@@ -50,6 +50,11 @@ function createGridItem(colIndex, rowIndex, itemColor = 'red') {
 const numColumns = 6;
 const numRows = 6;
 
+// TO DO:
+/**
+ * allow flexible width and height for each item in grid
+ * you will need to support grid-column-end and grid-row-end
+ */
 (function() {
   const container = createGridContainer(numColumns, numRows, '1fr', '1fr');
   document.body.appendChild(container);
